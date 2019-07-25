@@ -71,7 +71,6 @@ def run(songs)
       exit_jukebox
       i = 2
     end
-    i-=1
   end
 end
   
