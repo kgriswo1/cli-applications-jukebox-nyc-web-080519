@@ -60,6 +60,7 @@ def run(songs)
       help
     elsif command == 'list'
       list(songs)
+      i+=1
     elsif command == 'play'
       play(songs)
     elsif command == 'exit'
