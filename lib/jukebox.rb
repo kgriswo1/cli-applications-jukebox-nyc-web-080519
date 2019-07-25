@@ -52,22 +52,22 @@ end
 
 def run(songs)
   help
-  i = 0
-  while i < 2 do 
-    puts "Please enter a command:"
-    command = gets.chomp
-    if command == 'help'
-      help
-    elsif command == 'list'
-      list(songs)
-    elsif command == 'play'
-      play(songs)
-    elsif command == 'exit'
-      exit_jukebox
-      i = 3
-    end
-    i+=1
-  end
+  # i = 0
+  # while i < 2 do 
+  #   puts "Please enter a command:"
+  #   command = gets.chomp
+  #   if command == 'help'
+  #     help
+  #   elsif command == 'list'
+  #     list(songs)
+  #   elsif command == 'play'
+  #     play(songs)
+  #   elsif command == 'exit'
+  #     exit_jukebox
+  #     i = 3
+  #   end
+  #   i+=1
+  # end
 end
   
 
