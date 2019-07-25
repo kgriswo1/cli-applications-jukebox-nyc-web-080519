@@ -64,9 +64,9 @@ def run(songs)
       play(songs)
     elsif command == 'exit'
       exit_jukebox
-      i = 3
+      i = 2
     end
-    i+=1
+    i-=1
   end
 end
   
